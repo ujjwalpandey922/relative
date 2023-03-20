@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #14172b;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.side-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.side-info span {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  /* Secondary/Blue 000 */
+
+  color: #ecf0ff;
+
+  opacity: 0.9;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 2.5rem;
+}
+.card {
+  width: 230px;
+  height: 350px;
+}
+/* ===========ICON and Black Dot Images ================= */
+.blackCircle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 2;
+}
+.bitcoinIcon {
+  z-index: 3;
+}
+.curve {
+  width: 230px;
+  height: 350px;
+  position: absolute;
+  z-index: 0;
+}
+/* =====================Details===================== */
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.51rem;
+  position: relative;
+  z-index: 10;
+  height: 350px;
+}
+.details p {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  /* identical to box height, or 258% */
+
+  text-align: center;
+
+  color: #737bae;
+
+  opacity: 0.9;
+}
+
+/* =============INPUT================= */
+.inputs {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  align-items: center;
+  background: #14172b;
+  border-radius: 17px;
+}
+.inputs span {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  /* identical to box height, or 194% */
+
+  text-align: center;
+
+  /* Secondary/Blue 000 */
+
+  color: #ecf0ff;
+
+  opacity: 0.9;
+}
+.inc {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  /* identical to box height, or 258% */
+
+  text-transform: uppercase;
+
+  color: #00ffa3;
+
+  opacity: 0.9;
+
+  margin-left: 0.5rem;
+}
+.dec {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  /* identical to box height, or 258% */
+
+  text-align: right;
+  text-transform: uppercase;
+
+  color: #ff4d4d;
+
+  margin-left: 0.5rem;
+  opacity: 0.9;
+}
+/* ====================MAIN CONTAINER +++++++++ */
+.Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
